@@ -62,9 +62,10 @@ body{
 
 button{
 
-    position:absolute;
+    position:fixed;
 
-    bottom:25px;
+    top:50%;
+    transform:translateY(-50%);
 
     width:36px;
     height:36px;
@@ -78,16 +79,24 @@ button{
     font-size:28px;
 
     cursor:pointer;
+
+    z-index:10;
 }
 
 #prev{
+
     left:calc(50% - 230px);
+
 }
 
 #next{
+
     left:calc(50% + 196px);
+
 }
 
 button:hover{
+
     color:#666;
+
 }
