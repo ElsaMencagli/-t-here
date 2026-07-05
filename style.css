@@ -1,0 +1,93 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+
+    background:#e8e8e8;
+
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    overflow:hidden;
+
+    font-family:sans-serif;
+}
+
+#viewer{
+
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+}
+
+#book{
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    gap:0;
+}
+
+.page{
+
+    aspect-ratio:197 / 290;
+
+    height:92vh;
+
+    object-fit:contain;
+
+    display:block;
+
+    cursor:pointer;
+
+    user-select:none;
+}
+
+.single{
+
+    height:94vh;
+}
+
+button{
+
+    position:absolute;
+
+    bottom:25px;
+
+    width:36px;
+    height:36px;
+
+    border:none;
+
+    background:none;
+
+    color:#999;
+
+    font-size:28px;
+
+    cursor:pointer;
+}
+
+#prev{
+    left:35%;
+}
+
+#next{
+    right:35%;
+}
+
+button:hover{
+    color:#666;
+}
