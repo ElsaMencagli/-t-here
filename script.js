@@ -91,3 +91,15 @@ document.getElementById("next").onclick=next;
 document.getElementById("prev").onclick=prev;
 
 draw();
+
+document.addEventListener("keydown", function(event){
+
+    if(event.key === "ArrowRight"){
+        next();
+    }
+
+    if(event.key === "ArrowLeft"){
+        prev();
+    }
+
+});
