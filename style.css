@@ -96,3 +96,7 @@ button:hover{
     color:#666;
 
 }
+
+.page:first-child{
+    border-right:1px solid #d8d8d8;
+}
