@@ -85,13 +85,13 @@ button{
 
 #prev{
 
-    left:calc(50% - 230px);
+    left:calc(50% - 300px);
 
 }
 
 #next{
 
-    left:calc(50% + 196px);
+    left:calc(50% + 300px);
 
 }
 
