@@ -38,6 +38,8 @@ body{
     justify-content:center;
     align-items:center;
     gap:0;
+
+    position:relative;
 }
 
 .page{
@@ -100,4 +102,24 @@ button:hover{
 .page:first-child{
     border-right:1px solid #d8d8d8;
     box-sizing:border-box;
+}
+
+#book::after{
+
+    content:"";
+
+    position:absolute;
+
+    top:0;
+    bottom:0;
+
+    left:50%;
+
+    width:1px;
+
+    background:#d8d8d8;
+
+    transform:translateX(-0.5px);
+
+    pointer-events:none;
 }
