@@ -1,4 +1,4 @@
-const totalPages = 3;
+const totalPages = 68;
 
 const book = document.getElementById("book");
 
