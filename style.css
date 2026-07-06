@@ -119,3 +119,32 @@ button:hover{
     pointer-events:none;
 
 }
+
+#fullscreen{
+
+    position:fixed;
+
+    top:20px;
+    right:20px;
+
+    width:36px;
+    height:36px;
+
+    border:none;
+
+    background:none;
+
+    color:#999;
+
+    font-size:24px;
+
+    cursor:pointer;
+
+    z-index:10;
+}
+
+#fullscreen:hover{
+
+    color:#666;
+
+}
