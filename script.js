@@ -103,3 +103,17 @@ document.addEventListener("keydown", function(event){
     }
 
 });
+
+document.getElementById("fullscreen").onclick = function(){
+
+    if(!document.fullscreenElement){
+
+        document.documentElement.requestFullscreen();
+
+    }else{
+
+        document.exitFullscreen();
+
+    }
+
+};
