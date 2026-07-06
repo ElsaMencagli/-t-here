@@ -167,3 +167,7 @@ button:hover{
     left:auto;
     right:30px;
 }
+
+.page{
+    touch-action: pinch-zoom;
+}
