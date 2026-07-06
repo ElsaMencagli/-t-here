@@ -93,19 +93,6 @@ button{
     right:20px;
 }
 
-#viewer{
-
-    width:100vw;
-    height:100vh;
-
-    display:flex;
-    justify-content:center;
-    align-items:center;
-
-    position:relative;
-
-}
-
 button:hover{
 
     color:#666;
