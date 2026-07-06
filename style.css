@@ -86,11 +86,11 @@ button{
 }
 
 #prev{
-    left:20px;
+    left:calc(50% - 580px);
 }
 
 #next{
-    right:20px;
+    left:calc(50% + 545px);
 }
 
 button:hover{
