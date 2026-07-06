@@ -158,3 +158,12 @@ button:hover{
     align-items:center;
 
 }
+
+#viewer:fullscreen #prev{
+    left:30px;
+}
+
+#viewer:fullscreen #next{
+    left:auto;
+    right:30px;
+}
