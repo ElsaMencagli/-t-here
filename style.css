@@ -86,11 +86,28 @@ button{
 }
 
 #prev{
-    left:calc(50% - 580px);
+
+    left:calc(50% - 45vw);
+
 }
 
 #next{
-    left:calc(50% + 545px);
+
+    right:calc(50% - 45vw);
+
+}
+
+#viewer{
+
+    width:100vw;
+    height:100vh;
+
+    display:flex;
+    justify-content:center;
+    align-items:center;
+
+    position:relative;
+
 }
 
 button:hover{
