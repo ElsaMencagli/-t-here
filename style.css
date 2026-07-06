@@ -186,3 +186,16 @@ button:hover{
     z-index:100;
 
 }
+
+@media (max-width:600px){
+
+    .page,
+    .single{
+
+        height:auto;
+        max-height:80vh;
+        max-width:45vw;
+
+    }
+
+}
