@@ -106,9 +106,11 @@ document.addEventListener("keydown", function(event){
 
 document.getElementById("fullscreen").onclick = function(){
 
+    const viewer = document.getElementById("viewer");
+
     if(!document.fullscreenElement){
 
-        document.documentElement.requestFullscreen();
+        viewer.requestFullscreen();
 
     }else{
 
