@@ -65,6 +65,9 @@ function draw(){
     book.appendChild(left);
     book.appendChild(right);
 
+    preload(page + 2);
+    preload(page + 3);
+
 }
 
 function next(){
