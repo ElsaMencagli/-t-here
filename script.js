@@ -4,6 +4,16 @@ const book = document.getElementById("book");
 
 let page = 1;
 
+function preload(n){
+
+    if(n < 1 || n > totalPages) return;
+
+    const img = new Image();
+
+    img.src = `pages/${String(n).padStart(2,"0")}.jpg`;
+
+}
+
 function draw(){
 
     book.innerHTML = "";
