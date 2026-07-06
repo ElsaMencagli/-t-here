@@ -86,15 +86,11 @@ button{
 }
 
 #prev{
-
-    left:calc(50% - 45vw);
-
+    left:20px;
 }
 
 #next{
-
-    right:calc(50% - 45vw);
-
+    right:20px;
 }
 
 #viewer{
