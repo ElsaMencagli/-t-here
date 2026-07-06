@@ -65,8 +65,9 @@ function draw(){
     book.appendChild(left);
     book.appendChild(right);
 
-    preload(page + 2);
-    preload(page + 3);
+    for(let i = -4; i <= 4; i++){
+
+    preload(page + i);
 
 }
 
