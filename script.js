@@ -69,7 +69,9 @@ function draw(){
 
     preload(page + i);
 
+    }
 }
+
 
 function next(){
 
