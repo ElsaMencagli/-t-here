@@ -124,6 +124,22 @@ document.getElementById("fullscreen").onclick = function(){
 
     const viewer = document.getElementById("viewer");
 
-    viewer.classList.toggle("mobile-fullscreen");
+    if(window.innerWidth <= 1024){
+
+        viewer.classList.toggle("fullscreen");
+
+    }else{
+
+        if(!document.fullscreenElement){
+
+            viewer.requestFullscreen();
+
+        }else{
+
+            document.exitFullscreen();
+
+        }
+
+    }
 
 };
