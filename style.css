@@ -46,7 +46,7 @@ body{
 
     aspect-ratio:197 / 290;
 
-    height:92%;
+    height:92vh;
     width:auto;
 
     object-fit:contain;
@@ -61,7 +61,7 @@ body{
 
 .single{
 
-    height:94%;
+    height:94vh;
 }
 
 button{
@@ -215,5 +215,21 @@ button:hover{
     background:#111;
 
     z-index:999;
+
+}
+
+@media (max-width:600px){
+
+    .page{
+
+        height:80dvh;
+
+    }
+
+    .single{
+
+        height:80dvh;
+
+    }
 
 }
