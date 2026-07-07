@@ -23,7 +23,7 @@ body{
 #viewer{
 
     width:100vw;
-    height:100vh;
+    height:100dvh;
 
     display:flex;
     justify-content:center;
@@ -46,7 +46,8 @@ body{
 
     aspect-ratio:197 / 290;
 
-    height:92vh;
+    height:92%;
+    width:auto;
 
     object-fit:contain;
 
@@ -55,11 +56,12 @@ body{
     cursor:pointer;
 
     user-select:none;
+
 }
 
 .single{
 
-    height:94vh;
+    height:94%;
 }
 
 button{
